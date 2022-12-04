@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Cool Ranch Doritos Guild Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project link
 
-## Available Scripts
+###
 
-In the project directory, you can run:
+## Repository link
 
-### `npm start`
+### Front-End: https://github.com/Chrisbick94/finalproject
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Back-End:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Project Description
 
-### `npm test`
+- Create a react app that allows users to log in post in a forum, see details about game mechanics and allow users to let everyone know attendance for raid nights.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## App Functionality
 
-### `npm run build`
+- Users will be able to post in forum, see tutorials based on class and spec as well as see tutorials on boss fights. users will be able to log in/log out as well as post in a forum.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deliverables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MVP Criteria
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Home Page
+- Class pages with video tutorials.
+- Working Database
 
-### `npm run eject`
+### Post-MVP Plans
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- User accounts
+- Working forums
+- Ability to post on to a calender that changes per month
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Stretch:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Add more features and improvements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Project Planning
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Schedule
 
-### Code Splitting
+| DATE         | GOALS                                                                                     |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| Sun. 12/04   | Project Planning                                                                          |
+| Tues. 12/06  | Have project skeleton completed                                                           |
+| Thurs. 12/08 | Get front working with styling and pages                                                  |
+| Sun. 12/11   | Get more pages, more styling, more endpoints, and more functionality working              |
+| Tues. 12/13  | Have MVP Criteria Completed and working database. Deploy Project.                         |
+| Tue. 12/15   | Final Touches/Improvements or bug fixes. Submit completed project. Project presentations. |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Front-End Wireframe
 
-### Analyzing the Bundle Size
+![plot]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ERD
 
-### Making a Progressive Web App
+![plot]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Routes Table (MVP & Post-MVP)
 
-### Advanced Configuration
+| METHOD | PATH           | PURPOSE                                       |
+| ------ | -------------- | --------------------------------------------- |
+| GET    | /              | HOME PAGE                                     |
+| GET    | /classes       | Class Page                                    |
+| GET    | /raidtutorial  | Raids Page                                    |
+| GET    | /user          | User login Page                               |
+| POST   | /user          | Create Account Page                           |
+| GET    | /user/:id      | User Account Page (Post-MVP)                  |
+| Put    | /user/:id      | Edit User Account Data (Post-MVP)             |
+| GET    | /user/:id/edit | Edit User Account Page (Post-MVP)             |
+| GET    | \*             | 404 PAGE(MATCHES ANY ROUTE NOT DEFINED ABOVE) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Outstanding Issues
 
-### Deployment
+## Bugs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Unfinished functionality
