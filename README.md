@@ -1,4 +1,4 @@
-# Cool Ranch Doritos Guild Website
+# Project Badass Guild Website
 
 ## Project link
 
