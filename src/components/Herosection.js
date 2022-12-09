@@ -1,13 +1,26 @@
 import React from 'react';
 import '../App.css';
-import '../components/Herosection.css'
- 
+import { Button } from './Button';
+import './Herosection.css';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>Placeholder</h1>
-      <p>PlaceHolder</p>
+      
+      <h1>ADVENTURE AWAITS
+        GET SMALLER BACKROUND PHOTO
+      </h1>
+      <p>What are you waiting for?</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          JOIN US!
+        </Button>
+      
+      </div>
     </div>
   );
 }
