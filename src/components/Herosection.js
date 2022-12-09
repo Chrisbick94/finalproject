@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-import './Herosection.css'
+import '../components/Herosection.css'
+ 
 
 function HeroSection() {
   return (
