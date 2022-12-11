@@ -1,0 +1,15 @@
+.classpage {
+    background-image: url("../../public/assets/images/backroundimg.png");
+  background-size: cover;
+  
+  
+  height: 100vh;
+  
+}
+
+.text {
+    margin: auto;
+  width: 50%;
+  color:white;
+  padding: 10px;
+}

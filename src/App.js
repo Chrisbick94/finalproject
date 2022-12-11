@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Classes from './components/pages/Classes';
 import Raids from './components/pages/Calendar';
+import Login from './components/pages/Login'
 
 
 
@@ -20,7 +21,7 @@ function App() {
         <Navbar />
         <Routes>
         
-          
+          <Route path='/login' element={<Login />} />
           <Route path='/sign-up' element={<SignUp />} />
           <Route path="*" element={<HeroSection />} />
           <Route path='/classes' element={<Classes />} />

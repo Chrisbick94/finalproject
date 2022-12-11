@@ -46,7 +46,11 @@
     text-decoration: underline;
   }
   
-  
+  .login {
+    color:white;
+    padding-top: .3cm;
+    cursor: pointer;
+  }
   
 
 
