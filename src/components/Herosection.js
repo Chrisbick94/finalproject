@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       
       <h1>ADVENTURE AWAITS
-        GET SMALLER BACKROUND PHOTO
+        
       </h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>

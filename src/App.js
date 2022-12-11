@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Classes from './components/pages/Classes';
-import Raids from './components/pages/Raids';
+import Raids from './components/pages/Calendar';
+
 
 
 import HeroSection from './components/Herosection'
